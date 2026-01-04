@@ -39,7 +39,7 @@ Follow the on-screen menu to select an operation (1-13) and enter the required v
 ## Requirements
 
 - Python 3.x
-## git add README.md Getting Started
+
 
 ### Prerequisites
 - Git installed on your system
@@ -63,7 +63,6 @@ python calculator.py
 ```bash
 python calculator.py
 ## Notes
-
 - Includes error handling for division by zero
 - Uses Newton's method for square root calculations
 - Supports negative exponents for power operations
