@@ -10,11 +10,7 @@ A Python-based calculator with support for basic and advanced mathematical opera
 - **Financial Calculations**: Simple interest, compound interest
 - **Large Number Support**: Handles integers up to 1,000,000 digits
 
-## Usage
 
-```bash
-python calculator.py
-```
 
 Follow the on-screen menu to select an operation (1-13) and enter the required values.
 
@@ -54,13 +50,16 @@ cd "Advance Calculator"
 ### Run the Program
 ```bash
 python calculator.py
+```
+
 ## Notes
+```bash
 - Includes error handling for division by zero
 - Uses Newton's method for square root calculations
 - Supports negative exponents for power operations
 ```
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**.
 
