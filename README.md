@@ -54,18 +54,11 @@ cd "Advance Calculator"
 ### Run the Program
 ```bash
 python calculator.py
-```
-
-
-
-
-### Run the Program
-```bash
-python calculator.py
 ## Notes
 - Includes error handling for division by zero
 - Uses Newton's method for square root calculations
 - Supports negative exponents for power operations
+```
 
 ## 📜 License
 
