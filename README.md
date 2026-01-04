@@ -59,14 +59,3 @@ python calculator.py
 - Supports negative exponents for power operations
 ```
 
-##  License
-
-This project is licensed under the **MIT License**.
-
-You are free to:
-- Use the code for learning and personal projects
-- Modify and distribute it
-- Build upon it for future work
-
-Attribution is appreciated but not required.
-
