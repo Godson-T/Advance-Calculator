@@ -50,7 +50,7 @@ Follow the on-screen menu to select an operation (1-13) and enter the required v
 git clone <repository-url>
 cd "Advance Calculator"
 ```
-
+ 
 ### Run the Program
 ```bash
 python calculator.py
