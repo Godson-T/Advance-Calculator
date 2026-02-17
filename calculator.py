@@ -152,14 +152,41 @@ class AdvancedCalculator:
             return 1
         if n == 1:
             return a
+    
 
+        tol = 1e-12
+        max_iteration = 1000
+    
+        # Initial guess
+        if abs(a) < 1:
+            guess = 1.0
+        else:
+            guess = a / n
+    
+        # Newton iteration
+        for _ in range(max_iteration):
+        
+            guess_to_n_minus1 = self.find_power(guess, n - 1)
+    
+            # Newton update formula
+            guess_new = ((n - 1) * guess + a / guess_to_n_minus1) / n
+    
+            # Stop if improvement is tiny
+            if abs(guess_new - guess) < tol:
+                return guess_new
+    
+            guess = guess_new
+    
+        # If not converged, return best guess
         return guess
-
+    
+            
+    
 
 """ def compute_log_base_a_of_b(a, b): 
     
     
-    def calculate_sine(degrees):
+def calculate_sine(degrees):
     """
 calculator = AdvancedCalculator()
 result = calculator.main()
